@@ -10,6 +10,8 @@ Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Calculator Setup", "Calcula
 		{F9619F22-E140-465D-A33B-2A08810258C1} = {F9619F22-E140-465D-A33B-2A08810258C1}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.BL", "Calculator.BL\Calculator.BL.csproj", "{6C16A58C-885C-4EAB-AA95-EE1549220112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -39,6 +41,16 @@ Global
 		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.Release|Any CPU.Build.0 = SingleImage
 		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.SingleImage|Any CPU.ActiveCfg = SingleImage
 		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.SingleImage|Any CPU.Build.0 = SingleImage
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16A58C-885C-4EAB-AA95-EE1549220112}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
