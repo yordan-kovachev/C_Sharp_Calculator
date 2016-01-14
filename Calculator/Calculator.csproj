@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9619F22-E140-465D-A33B-2A08810258C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Calculator</RootNamespace>
+    <AssemblyName>Calculator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Spark\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D8236691349CF076B39948797BFBEC43598E3523</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Calculator_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="button.cs" />
+    <Compile Include="Calculator Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator Form.Designer.cs">
+      <DependentUpon>Calculator Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calculator Form.en-GB.resx">
+      <DependentUpon>Calculator Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator Form.resx">
+      <DependentUpon>Calculator Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Calculator_TemporaryKey.pfx" />
+    <None Include="Images\Install Images\1. Splash Bitmap 465px by 281px\psA6AD.tmp" />
+    <None Include="Images\Install Images\1. Splash Bitmap 465px by 281px\Splash Bitmap.psd" />
+    <None Include="Images\Install Images\2. Install Welcome 499px by 312px\Install Welcome Banner.psd" />
+    <None Include="Images\Install Images\2. Install Welcome 499px by 312px\Install Welcome copy.psd" />
+    <None Include="Images\Install Images\2. Install Welcome 499px by 312px\psD423.tmp" />
+    <None Include="Images\Install Images\3. License Agreement 499px by 58px\License Agreement Banner.psd" />
+    <None Include="Images\Install Images\3. License Agreement 499px by 58px\ps1B78.tmp" />
+    <None Include="Images\Install Images\3. License Agreement 499px by 58px\ps2CD6.tmp" />
+    <None Include="Images\Install Images\3. License Agreement 499px by 58px\psB0C.tmp" />
+    <None Include="Images\Install Images\4. Readme 499px by 58px\ps1B78.tmp" />
+    <None Include="Images\Install Images\4. Readme 499px by 58px\ps27A0.tmp" />
+    <None Include="Images\Install Images\4. Readme 499px by 58px\ps5D3E.tmp" />
+    <None Include="Images\Install Images\4. Readme 499px by 58px\psB0C.tmp" />
+    <None Include="Images\Install Images\4. Readme 499px by 58px\Readme Information Banner.psd" />
+    <None Include="Images\Install Images\5. Customer Information 499px by 58px\Customer Information Banner.psd" />
+    <None Include="Images\Install Images\5. Customer Information 499px by 58px\ps1B78.tmp" />
+    <None Include="Images\Install Images\5. Customer Information 499px by 58px\psB0C.tmp" />
+    <None Include="Images\Install Images\6. Destination Folder 499 by 58 px\Destination Folder Banner.psd" />
+    <None Include="Images\Install Images\6. Destination Folder 499 by 58 px\ps1B78.tmp" />
+    <None Include="Images\Install Images\6. Destination Folder 499 by 58 px\psB0C.tmp" />
+    <None Include="Images\Install Images\7. Ready to Install 499px by 58px\ps1B78.tmp" />
+    <None Include="Images\Install Images\7. Ready to Install 499px by 58px\psB0C.tmp" />
+    <None Include="Images\Install Images\7. Ready to Install 499px by 58px\Ready to Install Banner.psd" />
+    <None Include="Images\Install Images\8. Setup Progress 499px by 58px\ps1B78.tmp" />
+    <None Include="Images\Install Images\8. Setup Progress 499px by 58px\psB0C.tmp" />
+    <None Include="Images\Install Images\8. Setup Progress 499px by 58px\Setup Progress Banner.psd" />
+    <None Include="Images\Install Images\9. Setup Complete Success 499px by 312px\psD423.tmp" />
+    <None Include="Images\Install Images\9. Setup Complete Success 499px by 312px\Setup Complete Success Banner.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Supoerted Documents\Readme -project Description.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\Install Images\1. Splash Bitmap 465px by 281px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\1. Splash Bitmap 465px by 281px\Splash-Bitmap.jpg" />
+    <Content Include="Images\Install Images\2. Install Welcome 499px by 312px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\2. Install Welcome 499px by 312px\Install-Welcome-Banner.jpg" />
+    <Content Include="Images\Install Images\2. Install Welcome 499px by 312px\Refactor\Screenshot 2015-11-19 18.17.25  310 by 178px.png" />
+    <Content Include="Images\Install Images\3. License Agreement 499px by 58px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\3. License Agreement 499px by 58px\License-Agreement-Banner.jpg" />
+    <Content Include="Images\Install Images\4. Readme 499px by 58px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\4. Readme 499px by 58px\Readme-Information-Banner.jpg" />
+    <Content Include="Images\Install Images\5. Customer Information 499px by 58px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\5. Customer Information 499px by 58px\Customer-Information-Banner.jpg" />
+    <Content Include="Images\Install Images\6. Destination Folder 499 by 58 px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\6. Destination Folder 499 by 58 px\Destination-Folder-Banner.jpg" />
+    <Content Include="Images\Install Images\7. Ready to Install 499px by 58px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\7. Ready to Install 499px by 58px\Ready-to-Install-Banner.jpg" />
+    <Content Include="Images\Install Images\8. Setup Progress 499px by 58px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\8. Setup Progress 499px by 58px\Setup-Progress-Banner.jpg" />
+    <Content Include="Images\Install Images\9. Setup Complete Success 499px by 312px\Banner-Icon.jpg" />
+    <Content Include="Images\Install Images\9. Setup Complete Success 499px by 312px\Setup-Complete-Success-Banner.jpg" />
+    <Content Include="Images\Install Images\9. Setup Complete Success 499px by 312px\Setup-Complete-Success-Banner_OLD.jpg" />
+    <Content Include="Images\plus or minus.jpg" />
+    <Content Include="Images\plus or minus.png" />
+    <Content Include="Images\Uninstall Windows Calculator.ico" />
+    <Content Include="Images\Uninstall Windows Calculator2.ico" />
+    <Content Include="Images\Windows Calculator.ico" />
+    <Content Include="Supoerted Documents\Readme Project Description.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
