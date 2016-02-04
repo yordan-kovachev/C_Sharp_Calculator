@@ -28,9 +28,10 @@
 		</TaggedOutputs> -->
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
+	<ItemGroup/>
 	<ItemGroup>
-		<ProjectReference Include="..\Calculator\Calculator.csproj">
-			<Name>Calculator</Name>
+		<ProjectReference Include="..\Calculator\Calculator.WPF.csproj">
+			<Name>Calculator.WPF</Name>
 			<Project>{F9619F22-E140-465D-A33B-2A08810258C1}</Project>
 		</ProjectReference>
 	</ItemGroup>

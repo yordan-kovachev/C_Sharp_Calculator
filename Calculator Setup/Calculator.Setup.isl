@@ -262,16 +262,16 @@
 		<row><td>NewBinary16</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallFirstUse.ico</td></row>
 		<row><td>NewBinary17</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallPartial.ico</td></row>
 		<row><td>NewBinary18</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallStateMenu.ico</td></row>
-		<row><td>NewBinary19</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\1. Splash Bitmap 465px by 281px\Splash-Bitmap.jpg</td></row>
+		<row><td>NewBinary19</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\1. Splash Bitmap 465px by 281px\Splash-Bitmap.jpg</td></row>
 		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\New.ibd</td></row>
-		<row><td>NewBinary20</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\2. Install Welcome 499px by 312px\Install-Welcome-Banner.jpg</td></row>
-		<row><td>NewBinary21</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\3. License Agreement 499px by 58px\License-Agreement-Banner.jpg</td></row>
-		<row><td>NewBinary22</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\4. Readme 499px by 58px\Readme-Information-Banner.jpg</td></row>
-		<row><td>NewBinary23</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\5. Customer Information 499px by 58px\Customer-Information-Banner.jpg</td></row>
-		<row><td>NewBinary24</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\6. Destination Folder 499 by 58 px\Destination-Folder-Banner.jpg</td></row>
-		<row><td>NewBinary25</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\7. Ready to Install 499px by 58px\Ready-to-Install-Banner.jpg</td></row>
-		<row><td>NewBinary26</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\8. Setup Progress 499px by 58px\Setup-Progress-Banner.jpg</td></row>
-		<row><td>NewBinary27</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Images\Install Images\9. Setup Complete Success 499px by 312px\Setup-Complete-Success-Banner.jpg</td></row>
+		<row><td>NewBinary20</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\2. Install Welcome 499px by 312px\Install-Welcome-Banner.jpg</td></row>
+		<row><td>NewBinary21</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\3. License Agreement 499px by 58px\License-Agreement-Banner.jpg</td></row>
+		<row><td>NewBinary22</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\4. Readme 499px by 58px\Readme-Information-Banner.jpg</td></row>
+		<row><td>NewBinary23</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\5. Customer Information 499px by 58px\Customer-Information-Banner.jpg</td></row>
+		<row><td>NewBinary24</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\6. Destination Folder 499 by 58 px\Destination-Folder-Banner.jpg</td></row>
+		<row><td>NewBinary25</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\7. Ready to Install 499px by 58px\Ready-to-Install-Banner.jpg</td></row>
+		<row><td>NewBinary26</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\8. Setup Progress 499px by 58px\Setup-Progress-Banner.jpg</td></row>
+		<row><td>NewBinary27</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\8. Setup Progress 499px by 58px\Setup-Progress-Banner.jpg</td></row>
 		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Up.ibd</td></row>
 		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\WarningIcon.ibd</td></row>
 		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;\Support\Themes\InstallShield Blue Theme\welcome.jpg</td></row>
@@ -348,7 +348,8 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Calculator.Primary_output</td><td>{E4D830F9-FD37-4FA4-B3F1-B4E3ED8B6DD1}</td><td>INSTALLDIR</td><td>2</td><td/><td>calculator.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Calculator.WPF.Primary_output</td><td>{3CCCAC7A-3A88-40CF-B087-0DA5A49B9C45}</td><td>INSTALLDIR</td><td>2</td><td/><td>calculator.wpf.primary_outpu</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{322960A3-D605-4C23-B614-C9563F703011}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent1</td><td>{C9542A29-FCB2-4D4E-AE3A-C22D1A608632}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -624,7 +625,7 @@
 		<row><td>ReadmeInformation</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>3</td><td/><td/><td/><td/><td>0</td><td>0</td><td/><td/></row>
 		<row><td>ReadmeInformation</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>193</td><td>13</td><td>65539</td><td/><td>##IDS__IsReadmeDlg_ReadMeInfo##</td><td>DlgDesc</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>ReadmeInformation</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>1048579</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>ReadmeInformation</td><td>Readme</td><td>ScrollableText</td><td>10</td><td>55</td><td>353</td><td>166</td><td>3</td><td/><td/><td>Banner</td><td/><td>0</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator\Supoerted Documents\Readme -project Description.rtf</td><td/></row>
+		<row><td>ReadmeInformation</td><td>Readme</td><td>ScrollableText</td><td>10</td><td>55</td><td>353</td><td>166</td><td>3</td><td/><td/><td>Banner</td><td/><td>0</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Supoerted Documents\Readme -project Description.rtf</td><td/></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>GroupBox1</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>ReadyToInstall</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary25</td></row>
 		<row><td>ReadyToInstall</td><td>BannerLine</td><td>Line</td><td>0</td><td>44</td><td>374</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
@@ -1058,6 +1059,7 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>INSTALLDIR</td><td>NewComponent1</td></row>
 	</table>
 
@@ -1872,7 +1874,8 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>AlwaysInstall</td><td>Calculator.Primary_output</td></row>
+		<row><td>AlwaysInstall</td><td>Calculator.WPF.Primary_output</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent1</td></row>
 	</table>
 
@@ -1888,7 +1891,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>calculator.primary_output</td><td>Calculator.Primary_output</td><td>Calculator.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Calculator&gt;|Built</td><td>3</td><td/></row>
+		<row><td>calculator.wpf.primary_outpu</td><td>Calculator.WPF.Primary_output</td><td>Calculator.WPF.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Calculator.WPF&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2034,7 +2037,8 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Calculator.Primary_output</td><td/><td/><td>_F1F15E98_6266_4453_948E_3C751CD154AA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Calculator.WPF.Primary_output</td><td/><td/><td>_45766C65_3629_4126_8DCE_CFF9EEFBC3F7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_3E34EB1E_B783_4D08_B096_18D8F6F9BB16_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent1</td><td/><td/><td>_D83F52B0_36C9_481B_9C8B_07FF7E7D3490_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -2337,6 +2341,7 @@
 		<col def="S255">TestValue</col>
 		<col def="i4">Type</col>
 		<row><td>Calculator</td><td>Calculator\Calculator.csproj</td><td/><td>2</td></row>
+		<row><td>Calculator.WPF</td><td>Calculator\Calculator.WPF.csproj</td><td/><td>2</td></row>
 		<row><td>CommonFilesFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISPROJECTDIR</td><td/><td/><td>1</td></row>
 		<row><td>ISProductFolder</td><td/><td/><td>1</td></row>
@@ -2410,9 +2415,9 @@
 		<row><td>Custom</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>2</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>100</td><td>0</td><td>1024</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-10</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>8.75</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-18</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>15.83</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
-		<row><td>DVD-5</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>4.38</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
+		<row><td>DVD-5</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>2</td><td>4.38</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-9</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>7.95</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
-		<row><td>SingleImage</td><td>Express</td><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator v 1.5.6.4\Calculator\Calculator Setup\Calculator Setup</td><td>PackageName</td><td>1</td><td>1033</td><td>0</td><td>1</td><td>Intel</td><td/><td>1033</td><td>2</td><td>0</td><td>0</td><td>0</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>108701</td><td/><td/><td/><td>3</td></row>
+		<row><td>SingleImage</td><td>Express</td><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator Setup\Calculator Setup</td><td>PackageName</td><td>1</td><td>1033</td><td>0</td><td>1</td><td>Intel</td><td/><td>1033</td><td>2</td><td>0</td><td>0</td><td>0</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>108701</td><td/><td/><td/><td>3</td></row>
 		<row><td>WebDeployment</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>PackageName</td><td>4</td><td>1033</td><td>2</td><td>1</td><td>Intel</td><td/><td>1033</td><td>0</td><td>0</td><td>0</td><td>0</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>124941</td><td/><td/><td/><td>3</td></row>
 	</table>
 
@@ -2656,7 +2661,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>-576475633</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>556037291</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-1650215151</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-1650215151</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>-1650215151</td></row>
@@ -3757,8 +3762,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-1650215151</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-1650215151</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-1650215151</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>-576475633</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>-576475633</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>556037291</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>556037291</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>UNINST~1|Uninstall Windows Calculator</td><td>0</td><td/><td>-576471441</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>-576495985</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>-576467185</td></row>
@@ -3987,8 +3992,8 @@
 		<col def="S0">Value</col>
 		<row><td>ActiveLanguage</td><td>1033</td></row>
 		<row><td>Comments</td><td/></row>
-		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="de9f554a3bc05c12be9c31b998217995">
-UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
+		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="a4f66fafb30885f14d732b73e196bba0">
+RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 			</td></row>
 		<row><td>DefaultProductConfiguration</td><td>Express</td></row>
 		<row><td>EnableSwidtag</td><td>0</td></row>
@@ -4005,7 +4010,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{B7C46BC2-FEA5-42DB-9F8F-05BF3C2A264D}</td></row>
 		<row><td>ISUSSignature</td><td>{0535E03D-AFB3-4A06-A8DD-97961AE36291}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewShortcuts,viewProject,viewRealSetupDesign,viewUpgradePaths,viewUpdateService,viewAppFiles,viewFeatureFiles,viewObjects,viewUI,viewCustomActions,viewRelease,viewTextMessages,viewSupportFiles,viewSetupTypes,viewAppV,viewBillboards</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewShortcuts,viewProject,viewRealSetupDesign,viewUpgradePaths,viewUpdateService,viewAppFiles,viewFeatureFiles,viewObjects,viewUI,viewCustomActions,viewRelease,viewTextMessages,viewSupportFiles,viewSetupTypes,viewAppV,viewBillboards,viewISToday,viewSetupDesign,viewRegistry,viewIniFiles,viewTextFiles,viewXMLConfig,viewFileExtensions,viewEnvironmentVariables,viewVRoots</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4019,6 +4024,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SccPath</td><td/></row>
 		<row><td>SchemaVersion</td><td>774</td></row>
 		<row><td>Type</td><td>MSIE</td></row>
+		<row><td>VSSccAuxPath</td><td/></row>
+		<row><td>VSSccLocalPath</td><td/></row>
+		<row><td>VSSccProvider</td><td/></row>
 	</table>
 
 	<table name="InstallUISequence">
@@ -4380,7 +4388,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{B538BF34-DC05-455D-B4C9-5F83CCE1D75C}</td><td/></row>
 		<row><td>ProductName</td><td>Windows Calculator</td><td/></row>
-		<row><td>ProductVersion</td><td>1.5.6.6</td><td/></row>
+		<row><td>ProductVersion</td><td>1.5.6.7</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4456,8 +4464,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>Calculator.Primary_output</td><td/><td>window_1_windows_calculator1</td><td>2</td></row>
-		<row><td>NewShortcut1</td><td>Calculator.Primary_output</td><td/><td>window_1_windows_calculator1</td><td>2</td></row>
 		<row><td>UNINST_Uninstall_Windows_Calculator</td><td>NewComponent1</td><td/><td>newfolder1</td><td>2</td></row>
 	</table>
 
@@ -4544,8 +4550,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>NewShortcut1</td><td>window_1_windows_calculator1</td><td>##ID_STRING4##</td><td>Calculator.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>NewShortcut1_B215992D9FBD4057815566E1D6974391.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut11</td><td>DesktopFolder</td><td>##ID_STRING4##</td><td>Calculator.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>NewShortcut11_2A0B0C1FB77640A1952918082C1D5253.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>UNINST_Uninstall_Windows_Calculator</td><td>newfolder1</td><td>UNINST|Uninstall Windows Calculator</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {B538BF34-DC05-455D-B4C9-5F83CCE1D75C}</td><td/><td/><td>UNINST_Uninstall_W_8CC3CB48173642E6BD674C1092B62B49.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 

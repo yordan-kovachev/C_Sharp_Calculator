@@ -158,7 +158,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Calculator.BL\Calculator.BL.csproj">
+      <Project>{6c16a58c-885c-4eab-aa95-ee1549220112}</Project>
+      <Name>Calculator.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Install Images\1. Splash Bitmap 465px by 281px\Banner-Icon.jpg" />
     <Content Include="Images\Install Images\1. Splash Bitmap 465px by 281px\Splash-Bitmap.jpg" />

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F9619F22-E140-465D-A33B-2A08810258C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WPF", "Calculator\Calculator.WPF.csproj", "{F9619F22-E140-465D-A33B-2A08810258C1}"
 EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Calculator Setup", "Calculator Setup\Calculator Setup.isproj", "{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}"
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Calculator.Setup", "Calculator Setup\Calculator.Setup.isproj", "{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F9619F22-E140-465D-A33B-2A08810258C1} = {F9619F22-E140-465D-A33B-2A08810258C1}
 	EndProjectSection
