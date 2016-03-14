@@ -10,18 +10,39 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    //@FW for Future Work
-    //@EH for Event Handler
-
-    public partial class Calculator : Form
+    public partial class CALCULATOR : Form
     {
         Double value = 0;//for storing any integer values when calculating 
         String calculationType = "";//will hold the type of mathematical operators used
         bool operatorPressed = false;//will tell if a mathematical operator is pressed or not
 
-        public Calculator()
+        public CALCULATOR()
         {
             InitializeComponent();
+            if (!SystemInformation.HighContrast)
+            {
+                BackColor = Color.White;
+                buttonClear.BackColor = Color.IndianRed;
+                buttonDelete.BackColor = Color.Orange;
+                buttonEquals.BackColor = Color.DarkTurquoise;
+            }
+            else
+            {
+                BackColor = SystemColors.Window;
+                buttonClear.BackColor = SystemColors.AppWorkspace;
+                buttonDelete.BackColor = SystemColors.AppWorkspace;
+                buttonEquals.BackColor = SystemColors.AppWorkspace;
+            }
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == (Keys.Control | Keys.C))
+            {
+                calculatorMenu.PerformClick();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
         }
         
         private void buttonNumber_Click(object sender, EventArgs e)
@@ -32,28 +53,39 @@ namespace Calculator
             {
                 result.Clear();
             }
+            //else
+            //{
+            //    entryStatus.Text = "";
+            //}
             //...before you press any number
-            operatorPressed = false;//reset the bool operatorPressed
+            operatorPressed = false;//reset bool val operatorPressed
             Button button = (Button)sender;
-            result.Text = result.Text + button.Text;//display what buttonNumber is pressed in the Result Box
+            result.Text += button.Text;//result.Text + display what buttonNumber is pressed in the Result Box
         }
 
         private void buttonOperator_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;//capture what button is pressed
-            if (operatorPressed == true && value == 0) //case ID operatorPressed == true when result area contains a result or a number of previous calculation. Still continue to work  
-            {//on operator click perform equal button click to continue adding multiple thread of numbers
-                buttonEquals.PerformClick();
-                operatorPressed = true;//changes to true when any operator is pressed
-                calculationType = button.Text;
-                entryStatus.Text = value + " " + calculationType;
-                result.Text = "";//clear Result Box on operator Pressed
+            if (result.Text == "" || calculationType != null)//quard clause filtering the garbbeg 
+            {
+                try
+                {
+                    entryStatus.Text = value + " ";
+                    calculationType = button.Text;
+                }
+                catch (FormatException)
+                {
+                    entryStatus.Text = value + " " + calculationType;
+                }
             }
-            else
-            {//perform normal operator funcrion
-                calculationType = button.Text;//assign the operator to the operation varibale
+            entryStatus.Text = value + " " + calculationType;
+                        
+            if (operatorPressed == false && value == 0) //case ID operatorPressed == true when result area contains a result or a number of previous calculation. Still continue to work  
+            {
+                //perform normal operator funcrion
                 value = Double.Parse(result.Text);
                 operatorPressed = true;//changes to true when any operator is pressed
+                calculationType = button.Text;//assign the operator to the operation varibale
                 entryStatus.Text = value + " " + calculationType;
                 result.Text = "";//clear Result Box on operator Pressed
             }
@@ -61,37 +93,59 @@ namespace Calculator
         
         private void buttonPeriod_Click(object sender, EventArgs e)
         {
-            Button button = (Button)sender;//capture what button is pressed
-            if (!result.Text.Contains("."))//if does Not contain  period will add it otherwise will not add another one
+            Button button = (Button)sender;
+            if (!result.Text.Contains("."))//Validation, if does Not contain  period will add it otherwise will not
             {
-                result.Text = result.Text + button.Text;
+                result.Text += button.Text;
+            }
+            else
+            {
+                result.Text = "0" + button.Text;
             }
         } 
 
         private void buttonEquals_Click(object sender, EventArgs e)
         {
-            switch (calculationType)
+            if(entryStatus.Text !="" || result.Text == "")
             {
-                case "+":
-                    result.Text = (value + Double.Parse(result.Text)).ToString();
-                    break;
-                case "-":
-                    result.Text = (value - Double.Parse(result.Text)).ToString();
-                    break;
-                case "x":
-                    result.Text = (value * Double.Parse(result.Text)).ToString();
-                    break;
-                case "/":
-                    result.Text = (value / Double.Parse(result.Text)).ToString();
-                    break;
-                default:
-                    result.Text = "0";//if none of the above calculationTypes is pressed the Result Box will return always to 0
-                    break;
+                switch (calculationType)
+                    {
+                        case "+":
+                            result.Text = (value + Double.Parse(result.Text)).ToString();
+                            break;
+                        case "-":
+                            result.Text = (value - Double.Parse(result.Text)).ToString();
+                            break;
+                        case "x":
+                            result.Text = (value * Double.Parse(result.Text)).ToString();
+                            break;
+                        case "/":
+                            result.Text = (value / Double.Parse(result.Text)).ToString();
+                            break;
+                        default:
+                            result.Text = result.Text;
+                            break;
+                    }
+                    entryStatus.Text = "";//clear the Label Text once the equal button is pressed
+                    calculationType = "";
+                    //value = Double.Parse(result.Text);//reset variable value with the result from switch calculation
             }
-            entryStatus.Text = "";//clear the Label Text once the equal button is pressed
-            calculationType = "";
-            value = Double.Parse(result.Text);//reset variable value with the result from swich calculation
-
+            //else
+            //{
+            //    Button button = (Button)sender;
+            //    if(operatorPressed == true)
+            //    {
+            //        try
+            //        {
+            //            entryStatus.Text = calculationType;
+            //        }
+            //        catch
+            //        {
+            //            throw new Exception();
+            //        }
+            //    }
+            //    button.Text = calculationType;
+            //}
         }
 
         private void buttonNegative_Click(object sender, EventArgs e)
@@ -120,7 +174,7 @@ namespace Calculator
         {
             result.Text = "0";
             value = 0;
-            entryStatus.Text = "";
+            entryStatus.Text = "0";
         }
 
         private void buttonDelete_Click(object sender, EventArgs e)
@@ -180,27 +234,38 @@ namespace Calculator
                 case "=":
                     buttonEquals.PerformClick();
                     break;
+                case "%":
+                    buttonPercentage.PerformClick();
+                    break;
                 default:
                     result.Text = "0";
+                    entryStatus.Text = "0";
                     break;
             }
         }
 
         private void ButtonPercentage_Click(object sender, EventArgs e)
         {
-            //Button button = (Button)sender;
-            //var secondValue = Double.Parse(button.Text);
-            //result.Text = Double.Parse(result.Text / value);
+            value = Double.Parse(result.Text);
+            Double percentage = value / 100;
+            result.Text = (percentage).ToString();
+            value = 0;
         }
-        private void result_TextChanged(object sender, EventArgs e)
 
+        private void calculatorMenu_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
-        }       
-        
         private void Calculator_Load(object sender, EventArgs e)
         {
 
         }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

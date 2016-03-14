@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WPF", "Calculator\Calculator.WPF.csproj", "{F9619F22-E140-465D-A33B-2A08810258C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WF", "Calculator\Calculator.WF.csproj", "{F9619F22-E140-465D-A33B-2A08810258C1}"
 EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Calculator.Setup", "Calculator Setup\Calculator.Setup.isproj", "{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.BL", "Calculator.BL\Calculator.BL.csproj", "{6C16A58C-885C-4EAB-AA95-EE1549220112}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Calculator.Setup", "Calculator.Setup\Calculator.Setup.isproj", "{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F9619F22-E140-465D-A33B-2A08810258C1} = {F9619F22-E140-465D-A33B-2A08810258C1}
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.BL", "Calculator.BL\Calculator.BL.csproj", "{6C16A58C-885C-4EAB-AA95-EE1549220112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +31,6 @@ Global
 		{F9619F22-E140-465D-A33B-2A08810258C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9619F22-E140-465D-A33B-2A08810258C1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{F9619F22-E140-465D-A33B-2A08810258C1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.Debug|Any CPU.ActiveCfg = DVD-5
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.Debug|Any CPU.Build.0 = DVD-5
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.DVD-5|Any CPU.Build.0 = DVD-5
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.Release|Any CPU.ActiveCfg = SingleImage
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.Release|Any CPU.Build.0 = SingleImage
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{13A5E4C0-F2E8-4BB5-96F9-A68BAEC87845}.SingleImage|Any CPU.Build.0 = SingleImage
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,6 +41,16 @@ Global
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{6C16A58C-885C-4EAB-AA95-EE1549220112}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.Debug|Any CPU.ActiveCfg = DVD-5
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.Debug|Any CPU.Build.0 = DVD-5
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.DVD-5|Any CPU.Build.0 = DVD-5
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.Release|Any CPU.ActiveCfg = SingleImage
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.Release|Any CPU.Build.0 = SingleImage
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{91F757FB-CE69-4440-8EE5-6B8DABCF80F3}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

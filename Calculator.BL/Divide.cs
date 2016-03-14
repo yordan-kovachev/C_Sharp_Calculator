@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Calculator.BL
 {
-    class Divide
+    public class Divide
     {
+        public string addition { get; set; }
     }
 }

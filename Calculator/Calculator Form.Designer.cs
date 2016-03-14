@@ -1,6 +1,6 @@
 ﻿namespace Calculator
 {
-    partial class Calculator
+    partial class CALCULATOR
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CALCULATOR));
             this.button0 = new System.Windows.Forms.Button();
             this.buttonPeriod = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,6 +52,13 @@
             this.result = new System.Windows.Forms.TextBox();
             this.entryStatus = new System.Windows.Forms.Label();
             this.buttonPlusOrMinus = new System.Windows.Forms.Button();
+            this.MainMenuStrip = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculatorMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTipDeleteButton = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipClearAllButton = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipNegativeButton = new System.Windows.Forms.ToolTip(this.components);
+            this.MainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // button0
@@ -76,102 +84,102 @@
             this.buttonPeriod.UseVisualStyleBackColor = true;
             this.buttonPeriod.Click += new System.EventHandler(this.buttonPeriod_Click);
             // 
-            // buttonOne
+            // button1
             // 
-            resources.ApplyResources(this.button1, "buttonOne");
+            resources.ApplyResources(this.button1, "button1");
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button1.Name = "buttonOne";
+            this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonTwo
+            // button2
             // 
-            resources.ApplyResources(this.button2, "buttonTwo");
+            resources.ApplyResources(this.button2, "button2");
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.Name = "buttonTwo";
+            this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonThre
+            // button3
             // 
-            resources.ApplyResources(this.button3, "buttonThre");
+            resources.ApplyResources(this.button3, "button3");
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button3.Name = "buttonThre";
+            this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonFour
+            // button4
             // 
-            resources.ApplyResources(this.button4, "buttonFour");
+            resources.ApplyResources(this.button4, "button4");
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button4.Name = "buttonFour";
+            this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonFive
+            // button5
             // 
-            resources.ApplyResources(this.button5, "buttonFive");
+            resources.ApplyResources(this.button5, "button5");
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button5.Name = "buttonFive";
+            this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonSix
+            // button6
             // 
-            resources.ApplyResources(this.button6, "buttonSix");
+            resources.ApplyResources(this.button6, "button6");
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button6.Name = "buttonSix";
+            this.button6.Name = "button6";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonSeven
+            // button7
             // 
-            resources.ApplyResources(this.button7, "buttonSeven");
+            resources.ApplyResources(this.button7, "button7");
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button7.Name = "buttonSeven";
+            this.button7.Name = "button7";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonEight
+            // button8
             // 
-            resources.ApplyResources(this.button8, "buttonEight");
+            resources.ApplyResources(this.button8, "button8");
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button8.Name = "buttonEight";
+            this.button8.Name = "button8";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
-            // buttonNine
+            // button9
             // 
-            resources.ApplyResources(this.button9, "buttonNine");
+            resources.ApplyResources(this.button9, "button9");
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button9.Name = "buttonNine";
+            this.button9.Name = "button9";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
@@ -222,7 +230,7 @@
             // buttonEquals
             // 
             resources.ApplyResources(this.buttonEquals, "buttonEquals");
-            this.buttonEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.buttonEquals.BackColor = System.Drawing.Color.DarkTurquoise;
             this.buttonEquals.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonEquals.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.buttonEquals.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
@@ -232,29 +240,33 @@
             this.buttonEquals.UseVisualStyleBackColor = false;
             this.buttonEquals.Click += new System.EventHandler(this.buttonEquals_Click);
             // 
-            // buttonClearAll
+            // buttonClear
             // 
-            resources.ApplyResources(this.buttonClear, "buttonClearAll");
-            this.buttonClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.buttonClear, "buttonClear");
+            this.buttonClear.BackColor = System.Drawing.Color.IndianRed;
+            this.buttonClear.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonClear.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.buttonClear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.buttonClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.buttonClear.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonClear.Name = "buttonClearAll";
+            this.buttonClear.Name = "buttonClear";
+            this.toolTipClearAllButton.SetToolTip(this.buttonClear, resources.GetString("buttonClear.ToolTip"));
             this.buttonClear.UseVisualStyleBackColor = false;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
-            // buttonDelEntry
+            // buttonDelete
             // 
-            resources.ApplyResources(this.buttonDelete, "buttonDelEntry");
-            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.buttonDelete, "buttonDelete");
+            this.buttonDelete.BackColor = System.Drawing.Color.Orange;
+            this.buttonDelete.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonDelete.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
             this.buttonDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.buttonDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.buttonDelete.ForeColor = System.Drawing.Color.White;
-            this.buttonDelete.Name = "buttonDelEntry";
+            this.buttonDelete.Name = "buttonDelete";
+            this.toolTipDeleteButton.SetToolTip(this.buttonDelete, resources.GetString("buttonDelete.ToolTip"));
             this.buttonDelete.UseVisualStyleBackColor = false;
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
@@ -273,13 +285,14 @@
             // 
             resources.ApplyResources(this.result, "result");
             this.result.Name = "result";
-            this.result.TextChanged += new System.EventHandler(this.result_TextChanged);
+            this.result.TabStop = false;
             // 
             // entryStatus
             // 
+            this.entryStatus.BackColor = System.Drawing.SystemColors.Window;
+            this.entryStatus.FlatStyle = System.Windows.Forms.FlatStyle.System;
             resources.ApplyResources(this.entryStatus, "entryStatus");
-            this.entryStatus.BackColor = System.Drawing.Color.GhostWhite;
-            this.entryStatus.ForeColor = System.Drawing.Color.DimGray;
+            this.entryStatus.ForeColor = System.Drawing.SystemColors.WindowText;
             this.entryStatus.Name = "entryStatus";
             // 
             // buttonPlusOrMinus
@@ -290,14 +303,38 @@
             this.buttonPlusOrMinus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.buttonPlusOrMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.buttonPlusOrMinus.Name = "buttonPlusOrMinus";
+            this.toolTipNegativeButton.SetToolTip(this.buttonPlusOrMinus, resources.GetString("buttonPlusOrMinus.ToolTip"));
             this.buttonPlusOrMinus.UseVisualStyleBackColor = true;
             this.buttonPlusOrMinus.Click += new System.EventHandler(this.buttonNegative_Click);
             // 
-            // Calculator
+            // MainMenuStrip
             // 
+            resources.ApplyResources(this.MainMenuStrip, "MainMenuStrip");
+            this.MainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.MainMenuStrip.Name = "MainMenuStrip";
+            // 
+            // fileToolStripMenuItem
+            // 
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculatorMenu});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
+            // 
+            // calculatorMenu
+            // 
+            resources.ApplyResources(this.calculatorMenu, "calculatorMenu");
+            this.calculatorMenu.Name = "calculatorMenu";
+            this.calculatorMenu.Click += new System.EventHandler(this.calculatorMenu_Click);
+            // 
+            // CALCULATOR
+            // 
+            this.AcceptButton = this.buttonEquals;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.CancelButton = this.buttonDelete;
             this.Controls.Add(this.entryStatus);
             this.Controls.Add(this.result);
             this.Controls.Add(this.buttonPercentage);
@@ -320,12 +357,15 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonPeriod);
             this.Controls.Add(this.button0);
+            this.Controls.Add(this.MainMenuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.MaximizeBox = false;
-            this.Name = "Calculator";
+            this.Name = "CALCULATOR";
             this.Load += new System.EventHandler(this.Calculator_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Calculator_KeyPress);
+            this.MainMenuStrip.ResumeLayout(false);
+            this.MainMenuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,6 +395,12 @@
         private System.Windows.Forms.Button buttonPercentage;
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Label entryStatus;
+        private System.Windows.Forms.MenuStrip MainMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculatorMenu;
+        private System.Windows.Forms.ToolTip toolTipDeleteButton;
+        private System.Windows.Forms.ToolTip toolTipClearAllButton;
+        private System.Windows.Forms.ToolTip toolTipNegativeButton;
     }
 }
 

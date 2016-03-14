@@ -117,578 +117,851 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;result.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="result.AccessibleDescription" xml:space="preserve">
-    <value>result area</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonSeven.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button8.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="button0.AccessibleDescription" xml:space="preserve">
+    <value>zero</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="buttonPeriod.Text" xml:space="preserve">
-    <value>.</value>
-  </data>
-  <data name="buttonEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="buttonClearAll.Size" type="System.Drawing.Size, System.Drawing">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 217</value>
+  </data>
+  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 40</value>
   </data>
-  <data name="&gt;&gt;buttonTwo.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button0.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="buttonEquals.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonNine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button8.Name" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="&gt;&gt;buttonThree.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSix.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;buttonDelEntry.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonOne.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button0.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;button0.Name" xml:space="preserve">
     <value>button0</value>
   </data>
-  <data name="buttonPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonThre.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;buttonEight.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;buttonPeriod.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 152</value>
-  </data>
-  <data name="buttonClearAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 111</value>
-  </data>
-  <data name="&gt;&gt;zero.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Name" xml:space="preserve">
-    <value>buttonClear</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 111</value>
-  </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSeven.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMinus.AccessibleDescription" xml:space="preserve">
-    <value>subtract</value>
-  </data>
-  <data name="buttonEight.AccessibleDescription" xml:space="preserve">
-    <value>eight</value>
-  </data>
-  <data name="buttonNine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 70</value>
-  </data>
-  <data name="buttonDivide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonPlus.Type" xml:space="preserve">
+  <data name="&gt;&gt;button0.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonTwo.AccessibleDescription" xml:space="preserve">
-    <value>two</value>
-  </data>
-  <data name="&gt;&gt;buttonDivide.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMultiply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="entryStatus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="buttonPercentage.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;result.Name" xml:space="preserve">
-    <value>result</value>
-  </data>
-  <data name="buttonEquals.AccessibleDescription" xml:space="preserve">
-    <value>equal</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonEight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonNegative.Name" xml:space="preserve">
-    <value>buttonNegative</value>
-  </data>
-  <data name="buttonSeven.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonSeven.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="buttonDelEntry.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;buttonNegative.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonSeven.Text" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="buttonMultiply.AccessibleDescription" xml:space="preserve">
-    <value>multiply</value>
-  </data>
-  <data name="buttonOne.AccessibleDescription" xml:space="preserve">
-    <value>one</value>
-  </data>
-  <data name="buttonNegative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 70</value>
-  </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 111</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonFive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 111</value>
-  </data>
-  <data name="buttonPercentage.AccessibleDescription" xml:space="preserve">
-    <value>percentage</value>
-  </data>
-  <data name="&gt;&gt;buttonFour.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonFive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;result.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;zero.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonDivide.Name" xml:space="preserve">
-    <value>buttonDivide</value>
-  </data>
-  <data name="buttonEight.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonDelEntry.Name" xml:space="preserve">
-    <value>buttonDelEntry</value>
-  </data>
-  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 152</value>
-  </data>
-  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonSix.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="buttonPlus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;entryStatus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonClearAll.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonSix.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 32</value>
-  </data>
-  <data name="buttonTwo.Text" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonSix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="buttonThre.Text" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonPlusOrMinus.AccessibleDescription" xml:space="preserve">
-    <value>negative</value>
-  </data>
-  <data name="buttonTwo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 152</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentage.Name" xml:space="preserve">
-    <value>buttonPercentage</value>
-  </data>
-  <data name="buttonPeriod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;entryStatus.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonPlusOrMinus.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonMultiply.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="buttonEight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 70</value>
-  </data>
-  <data name="&gt;&gt;buttonSix.Name" xml:space="preserve">
-    <value>buttonSix</value>
-  </data>
-  <data name="buttonEight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="buttonDivide.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9.75pt</value>
-  </data>
-  <data name="buttonPlusOrMinus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 70</value>
-  </data>
-  <data name="buttonMinus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 152</value>
-  </data>
-  <data name="buttonNine.Text" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 70</value>
-  </data>
-  <data name="buttonPercentage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9.75pt</value>
-  </data>
-  <data name="buttonPlusOrMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonPlusOrMinus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonFive.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="buttonClear.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="buttonEight.Text" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="buttonSix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 111</value>
-  </data>
-  <data name="buttonFour.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonThre.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="result.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;buttonFour.Name" xml:space="preserve">
-    <value>buttonFour</value>
-  </data>
-  <data name="buttonPeriod.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="buttonOne.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="buttonDivide.AccessibleDescription" xml:space="preserve">
-    <value>divide</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="buttonPlus.AccessibleDescription" xml:space="preserve">
-    <value>add</value>
-  </data>
-  <data name="&gt;&gt;buttonOne.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonSix.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
-    <value>buttonDelete</value>
-  </data>
-  <data name="buttonPlus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 193</value>
-  </data>
-  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonNine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonPlusOrMinus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonThre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 152</value>
-  </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="entryStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="buttonFour.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonOne.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="buttonMultiply.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="buttonEquals.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 193</value>
-  </data>
-  <data name="buttonClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 111</value>
-  </data>
-  <data name="buttonMinus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;entryStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonPlusOrMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiply.Name" xml:space="preserve">
-    <value>buttonMultiply</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="buttonPercentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 70</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;buttonSeven.Name" xml:space="preserve">
-    <value>buttonSeven</value>
-  </data>
-  <data name="&gt;&gt;buttonTwo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonFive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonEight.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;buttonPlusOrMinus.Name" xml:space="preserve">
-    <value>buttonPlusOrMinus</value>
-  </data>
-  <data name="buttonPeriod.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonFour.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonFive.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonMinus.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="entryStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 20</value>
-  </data>
-  <data name="&gt;&gt;entryStatus.Name" xml:space="preserve">
-    <value>entryStatus</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSeven.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="zero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 193</value>
-  </data>
-  <data name="buttonDelEntry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 152</value>
-  </data>
-  <data name="buttonNine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonTwo.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="buttonSix.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonClearAll.Name" xml:space="preserve">
-    <value>buttonClearAll</value>
-  </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="buttonTwo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonMinus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button0.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+  <data name="buttonPeriod.AccessibleDescription" xml:space="preserve">
+    <value>period</value>
+  </data>
+  <data name="buttonPeriod.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonPeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11.25pt, style=Bold</value>
+  </data>
+  <data name="buttonPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 217</value>
+  </data>
+  <data name="buttonPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonPeriod.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;buttonPeriod.Name" xml:space="preserve">
+    <value>buttonPeriod</value>
+  </data>
+  <data name="&gt;&gt;buttonPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPeriod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPeriod.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="button1.AccessibleDescription" xml:space="preserve">
+    <value>one</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 176</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="buttonClearAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9pt, style=Bold</value>
+  <data name="button2.AccessibleDescription" xml:space="preserve">
+    <value>two</value>
   </data>
-  <data name="&gt;&gt;buttonThree.Name" xml:space="preserve">
-    <value>buttonThree</value>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 176</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="buttonFour.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="button3.AccessibleDescription" xml:space="preserve">
+    <value>three</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 176</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
   </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="button4.AccessibleDescription" xml:space="preserve">
+    <value>four</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 111</value>
+    <value>6, 135</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="button5.AccessibleDescription" xml:space="preserve">
+    <value>five</value>
+  </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 135</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button6.AccessibleDescription" xml:space="preserve">
+    <value>six</value>
+  </data>
+  <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 135</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
   </data>
-  <data name="buttonThre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonFive.Name" xml:space="preserve">
-    <value>buttonFive</value>
-  </data>
-  <data name="&gt;&gt;buttonThre.Type" xml:space="preserve">
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="zero.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonThre.Name" xml:space="preserve">
-    <value>buttonThre</value>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
-  <data name="&gt;&gt;buttonOne.Name" xml:space="preserve">
-    <value>buttonOne</value>
+  <data name="button7.AccessibleDescription" xml:space="preserve">
+    <value>seven</value>
   </data>
-  <data name="buttonOne.Text" xml:space="preserve">
-    <value>1</value>
+  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
-  <data name="buttonFour.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
   </data>
-  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 40</value>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
   </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
+  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;buttonNine.Name" xml:space="preserve">
-    <value>buttonNine</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
   </data>
   <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="buttonDivide.Text" xml:space="preserve">
-    <value>/</value>
+  <data name="button7.Text" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="result.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 32</value>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
   </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonNegative.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="button8.AccessibleDescription" xml:space="preserve">
+    <value>eight</value>
+  </data>
+  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 94</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="button9.AccessibleDescription" xml:space="preserve">
+    <value>nine</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 94</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonPlus.AccessibleDescription" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="buttonPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11.25pt</value>
+  </data>
+  <data name="buttonPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 217</value>
+  </data>
+  <data name="buttonPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Name" xml:space="preserve">
+    <value>buttonPlus</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="buttonMinus.AccessibleDescription" xml:space="preserve">
+    <value>subtract</value>
+  </data>
+  <data name="buttonMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMinus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt</value>
+  </data>
+  <data name="buttonMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 176</value>
+  </data>
+  <data name="buttonMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonMinus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;buttonMinus.Name" xml:space="preserve">
+    <value>buttonMinus</value>
+  </data>
+  <data name="&gt;&gt;buttonMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMinus.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonMultiply.AccessibleDescription" xml:space="preserve">
+    <value>multiply</value>
+  </data>
+  <data name="buttonMultiply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
   <data name="buttonMultiply.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 11.25pt</value>
   </data>
-  <data name="buttonThre.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="buttonMultiply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 135</value>
+  </data>
+  <data name="buttonMultiply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonMultiply.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiply.Name" xml:space="preserve">
+    <value>buttonMultiply</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiply.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonDivide.AccessibleDescription" xml:space="preserve">
+    <value>divide</value>
+  </data>
+  <data name="buttonDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
+  </data>
+  <data name="buttonDivide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="buttonDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 94</value>
+  </data>
+  <data name="buttonDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonDivide.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;buttonDivide.Name" xml:space="preserve">
+    <value>buttonDivide</value>
+  </data>
+  <data name="&gt;&gt;buttonDivide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDivide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDivide.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonEquals.AccessibleDescription" xml:space="preserve">
+    <value>Press to trigger equals</value>
+  </data>
+  <data name="buttonEquals.AccessibleName" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="buttonEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonEquals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="buttonEquals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 217</value>
+  </data>
+  <data name="buttonEquals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 40</value>
+  </data>
+  <data name="buttonEquals.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonEquals.Text" xml:space="preserve">
+    <value>&amp;=</value>
   </data>
   <data name="&gt;&gt;buttonEquals.Name" xml:space="preserve">
     <value>buttonEquals</value>
   </data>
-  <data name="buttonOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="&gt;&gt;buttonEquals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEquals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonEquals.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="toolTipClearAllButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 17</value>
+  </metadata>
+  <data name="buttonClear.AccessibleDescription" xml:space="preserve">
+    <value>clear all</value>
+  </data>
+  <data name="buttonClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
+  </data>
+  <data name="buttonClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 135</value>
+  </data>
+  <data name="buttonClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 40</value>
+  </data>
+  <data name="buttonClear.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonClear.Text" xml:space="preserve">
+    <value>&amp;CLEAR All</value>
+  </data>
+  <data name="buttonClear.ToolTip" xml:space="preserve">
+    <value>Clears All Entries From the User</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Name" xml:space="preserve">
+    <value>buttonClear</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="toolTipDeleteButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <data name="buttonDelete.AccessibleDescription" xml:space="preserve">
+    <value>delete last entry</value>
+  </data>
+  <data name="buttonDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 176</value>
+  </data>
+  <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 40</value>
+  </data>
+  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>&amp;DELETE</value>
+  </data>
+  <data name="buttonDelete.ToolTip" xml:space="preserve">
+    <value>Deletes User Last Entry</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonPercentage.AccessibleDescription" xml:space="preserve">
+    <value>percentage</value>
+  </data>
+  <data name="buttonPercentage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonPercentage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="buttonPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 94</value>
+  </data>
+  <data name="buttonPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="buttonPercentage.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentage.Name" xml:space="preserve">
+    <value>buttonPercentage</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="result.AccessibleDescription" xml:space="preserve">
+    <value>result area</value>
+  </data>
+  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 56</value>
+  </data>
+  <data name="result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 31</value>
+  </data>
+  <data name="result.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="result.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;result.Name" xml:space="preserve">
+    <value>result</value>
+  </data>
+  <data name="&gt;&gt;result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;result.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;result.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="entryStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Bold</value>
+  </data>
+  <data name="entryStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="entryStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 29</value>
+  </data>
+  <data name="entryStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="entryStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 25</value>
+  </data>
+  <data name="entryStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="entryStatus.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="entryStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;entryStatus.Name" xml:space="preserve">
+    <value>entryStatus</value>
+  </data>
+  <data name="&gt;&gt;entryStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;entryStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;entryStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolTipNegativeButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 17</value>
+  </metadata>
+  <data name="buttonPlusOrMinus.AccessibleDescription" xml:space="preserve">
+    <value>negative</value>
+  </data>
+  <data name="buttonPlusOrMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonPlusOrMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonPlusOrMinus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9pt</value>
+  </data>
+  <data name="buttonPlusOrMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 94</value>
+  </data>
+  <data name="buttonPlusOrMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="buttonPlusOrMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="buttonPlusOrMinus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="buttonPlusOrMinus.ToolTip" xml:space="preserve">
+    <value>Press To Calculate With Negative Numbers</value>
+  </data>
+  <data name="&gt;&gt;buttonPlusOrMinus.Name" xml:space="preserve">
+    <value>buttonPlusOrMinus</value>
+  </data>
+  <data name="&gt;&gt;buttonPlusOrMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPlusOrMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPlusOrMinus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="MainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="MainMenuStrip.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MainMenuStrip.AccessibleDescription" xml:space="preserve">
+    <value>MainMenuStrip</value>
+  </data>
+  <data name="MainMenuStrip.AccessibleName" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="fileToolStripMenuItem.AccessibleDescription" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="fileToolStripMenuItem.AccessibleName" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;MENU</value>
+  </data>
+  <data name="MainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 24</value>
+  </data>
+  <data name="MainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="MainMenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Name" xml:space="preserve">
+    <value>MainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="calculatorMenu.AccessibleDescription" xml:space="preserve">
+    <value>mainMenuExit</value>
+  </data>
+  <data name="calculatorMenu.AccessibleName" xml:space="preserve">
+    <value>mainMenuExit</value>
+  </data>
+  <data name="calculatorMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="calculatorMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="calculatorMenu.Text" xml:space="preserve">
+    <value>EXIT</value>
+  </data>
+  <metadata name="toolTipDeleteButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <metadata name="toolTipClearAllButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 17</value>
+  </metadata>
+  <metadata name="toolTipNegativeButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AccessibleDescription" xml:space="preserve">
+    <value>Calculator in C#</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>Calculator in C#</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>260, 257</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1822,448 +2095,52 @@
         //////////////////////////////////8=
 </value>
   </data>
-  <data name="&gt;&gt;buttonSeven.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 152</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonEight.Name" xml:space="preserve">
-    <value>buttonEight</value>
-  </data>
-  <data name="buttonSeven.AccessibleDescription" xml:space="preserve">
-    <value>seven</value>
-  </data>
-  <data name="buttonThre.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonPercentage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;buttonMinus.Name" xml:space="preserve">
-    <value>buttonMinus</value>
-  </data>
-  <data name="&gt;&gt;buttonDivide.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;buttonPlus.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="button0.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonDelEntry.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="buttonOne.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="result.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="buttonSeven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonDelEntry.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonNine.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 300</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>280, 280</value>
+    <value>280, 300</value>
   </data>
-  <data name="buttonEquals.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AccessibleName" xml:space="preserve">
-    <value>Calculator in C#</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="buttonFive.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="buttonSix.Text" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonFour.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMinus.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;buttonEquals.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value> Calculator</value>
+    <value>CALCULATOR</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
   </data>
-  <data name="buttonThre.AccessibleDescription" xml:space="preserve">
-    <value>three</value>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;buttonPeriod.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;calculatorMenu.Name" xml:space="preserve">
+    <value>calculatorMenu</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;calculatorMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonTwo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
+  <data name="&gt;&gt;toolTipDeleteButton.Name" xml:space="preserve">
+    <value>toolTipDeleteButton</value>
+  </data>
+  <data name="&gt;&gt;toolTipDeleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipClearAllButton.Name" xml:space="preserve">
+    <value>toolTipClearAllButton</value>
+  </data>
+  <data name="&gt;&gt;toolTipClearAllButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipNegativeButton.Name" xml:space="preserve">
+    <value>toolTipNegativeButton</value>
+  </data>
+  <data name="&gt;&gt;toolTipNegativeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Calculator</value>
+    <value>CALCULATOR</value>
   </data>
-  <data name="entryStatus.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonDelEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonClearAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonPlus.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonThree.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 152</value>
-  </data>
-  <data name="&gt;&gt;buttonThree.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="buttonThree.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonPlusOrMinus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="buttonMultiply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 111</value>
-  </data>
-  <data name="buttonMinus.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="buttonFive.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonPlus.Name" xml:space="preserve">
-    <value>buttonPlus</value>
-  </data>
-  <data name="&gt;&gt;buttonNine.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="buttonSeven.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 70</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiply.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="result.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.AccessibleDescription" xml:space="preserve">
-    <value>Calculator in C#</value>
-  </data>
-  <data name="buttonDelEntry.Text" xml:space="preserve">
-    <value>DELETE</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 152</value>
-  </data>
-  <data name="buttonPeriod.AccessibleDescription" xml:space="preserve">
-    <value>period</value>
-  </data>
-  <data name="buttonPlusOrMinus.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="buttonOne.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 152</value>
-  </data>
-  <data name="&gt;&gt;button0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="entryStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="&gt;&gt;buttonEight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonEquals.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonEquals.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMinus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt</value>
-  </data>
-  <data name="&gt;&gt;buttonPeriod.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 70</value>
-  </data>
-  <data name="buttonEquals.Text" xml:space="preserve">
-    <value>=</value>
-  </data>
-  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 70</value>
-  </data>
-  <data name="&gt;&gt;buttonPlus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMinus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonFour.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 111</value>
-  </data>
-  <data name="buttonDivide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 70</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="buttonPlus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;zero.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button9.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="buttonNine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="buttonPercentage.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="&gt;&gt;zero.Name" xml:space="preserve">
-    <value>zero</value>
-  </data>
-  <data name="buttonFour.AccessibleDescription" xml:space="preserve">
-    <value>four</value>
-  </data>
-  <data name="buttonPeriod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 193</value>
-  </data>
-  <data name="buttonPlusOrMinus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9pt</value>
-  </data>
-  <data name="buttonPlusOrMinus.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="buttonPeriod.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonDelEntry.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonSix.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiply.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPeriod.Name" xml:space="preserve">
-    <value>buttonPeriod</value>
-  </data>
-  <data name="buttonClearAll.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonNegative.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonFour.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMultiply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonDelEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonThre.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>264, 241</value>
-  </data>
-  <data name="buttonOne.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonNegative.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button0.AccessibleDescription" xml:space="preserve">
-    <value>zero</value>
-  </data>
-  <data name="buttonDivide.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="buttonClearAll.Text" xml:space="preserve">
-    <value>CLEAR</value>
-  </data>
-  <data name="buttonFive.AccessibleDescription" xml:space="preserve">
-    <value>five</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonNine.AccessibleDescription" xml:space="preserve">
-    <value>nine</value>
-  </data>
-  <data name="buttonEquals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonTwo.Name" xml:space="preserve">
-    <value>buttonTwo</value>
-  </data>
-  <data name="buttonFive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>280, 280</value>
-  </data>
-  <data name="&gt;&gt;buttonThree.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 193</value>
-  </data>
-  <data name="&gt;&gt;result.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonDivide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonSix.AccessibleDescription" xml:space="preserve">
-    <value>six</value>
-  </data>
-  <data name="buttonClearAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonClearAll.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonDelEntry.AccessibleDescription" xml:space="preserve">
-    <value>delete last entry</value>
-  </data>
-  <data name="&gt;&gt;buttonFive.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;buttonEight.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonNine.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonTwo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
-  </data>
-  <data name="buttonPlus.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="buttonClearAll.AccessibleDescription" xml:space="preserve">
-    <value>clear all</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-GB</value>
-  </metadata>
 </root>
