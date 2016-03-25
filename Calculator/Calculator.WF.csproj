@@ -159,17 +159,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculator.BL\Calculator.BL.csproj">
-      <Project>{6c16a58c-885c-4eab-aa95-ee1549220112}</Project>
-      <Name>Calculator.BL</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Images\Install Images\1. Splash Bitmap 465-281px\Banner-Icon.jpg" />
     <Content Include="Images\Install Images\1. Splash Bitmap 465-281px\Splash-Bitmap.jpg" />
     <Content Include="Images\Install Images\2. Install Welcome 499-312px\Banner-Icon.jpg" />
     <Content Include="Images\Install Images\2. Install Welcome 499-312px\Install-Welcome-Banner.jpg" />
-    <Content Include="Images\Install Images\2. Install Welcome 499-312px\Refactor\Screenshot 2015-11-19 18.17.25  310 by 178px.png" />
+    <Content Include="Images\Install Images\2. Install Welcome 499-312px\Refactor\Screenshot310 by 178px.png" />
     <Content Include="Images\Install Images\3. License Agreement 499-58px\Banner-Icon.jpg" />
     <Content Include="Images\Install Images\3. License Agreement 499-58px\License-Agreement-Banner.jpg" />
     <Content Include="Images\Install Images\4. Readme 499-58px\Banner-Icon.jpg" />
