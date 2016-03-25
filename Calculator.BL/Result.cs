@@ -8,6 +8,6 @@ namespace Calculator.BL
 {
     public class Result
     {
-        public string addition { get; set; }
+        public string result { get; set; }
     }
 }
