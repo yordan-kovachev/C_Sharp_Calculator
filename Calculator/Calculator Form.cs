@@ -47,20 +47,13 @@ namespace Calculator
         
         private void buttonNumber_Click(object sender, EventArgs e)
         {
-            //clear the 0 from the reuslt Text Box
-            //keep the result in the entryStatus Label Box...
             if (result.Text == "0" || operatorPressed == true)
             {
                 result.Clear();
             }
-            //else
-            //{
-            //    entryStatus.Text = "";
-            //}
-            //...before you press any number
-            operatorPressed = false;//reset bool val operatorPressed
+            operatorPressed = false;
             Button button = (Button)sender;
-            result.Text += button.Text;//result.Text + display what buttonNumber is pressed in the Result Box
+            result.Text += button.Text;
         }
 
         private void buttonOperator_Click(object sender, EventArgs e)
@@ -150,12 +143,10 @@ namespace Calculator
 
         private void buttonNegative_Click(object sender, EventArgs e)
         {
-            //alternative code for porfolio showcase
-            //health: good
-            Button button = (Button)sender;//generic event handler what button is pressed
+            Button button = (Button)sender;
             result.Clear();
-            //      p = True                  q = True    
-            if /*(button.Text == "-" &&*/ (button.Text != "-")
+             
+            if (button.Text != "-")
             {//true for pressing the negative button first
                 result.Text = button.Text + result.Text;
             }
@@ -179,7 +170,11 @@ namespace Calculator
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            result.Text = "";
+            string resultText = result.Text;
+            int LastIndex = resultText.Length;
+            result.Text = result.Text.Remove(LastIndex - 1);
+            //result.Text = "";
+            //value = 0;
         }
 
         private void Calculator_KeyPress(object sender, KeyPressEventArgs e)

@@ -49,7 +49,6 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonPercentage = new System.Windows.Forms.Button();
-            this.result = new System.Windows.Forms.TextBox();
             this.entryStatus = new System.Windows.Forms.Label();
             this.buttonPlusOrMinus = new System.Windows.Forms.Button();
             this.MainMenuStrip = new System.Windows.Forms.MenuStrip();
@@ -58,6 +57,8 @@
             this.toolTipDeleteButton = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipClearAllButton = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipNegativeButton = new System.Windows.Forms.ToolTip(this.components);
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.result = new System.Windows.Forms.TextBox();
             this.MainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -281,12 +282,6 @@
             this.buttonPercentage.UseVisualStyleBackColor = true;
             this.buttonPercentage.Click += new System.EventHandler(this.ButtonPercentage_Click);
             // 
-            // result
-            // 
-            resources.ApplyResources(this.result, "result");
-            this.result.Name = "result";
-            this.result.TabStop = false;
-            // 
             // entryStatus
             // 
             this.entryStatus.BackColor = System.Drawing.SystemColors.Window;
@@ -318,7 +313,8 @@
             // 
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calculatorMenu});
+            this.calculatorMenu,
+            this.toolStripSeparator1});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
@@ -327,6 +323,17 @@
             resources.ApplyResources(this.calculatorMenu, "calculatorMenu");
             this.calculatorMenu.Name = "calculatorMenu";
             this.calculatorMenu.Click += new System.EventHandler(this.calculatorMenu_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // result
+            // 
+            resources.ApplyResources(this.result, "result");
+            this.result.Name = "result";
+            this.result.TabStop = false;
             // 
             // CALCULATOR
             // 
@@ -393,7 +400,6 @@
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonPlusOrMinus;
         private System.Windows.Forms.Button buttonPercentage;
-        private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Label entryStatus;
         private System.Windows.Forms.MenuStrip MainMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -401,6 +407,8 @@
         private System.Windows.Forms.ToolTip toolTipDeleteButton;
         private System.Windows.Forms.ToolTip toolTipClearAllButton;
         private System.Windows.Forms.ToolTip toolTipNegativeButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.TextBox result;
     }
 }
 

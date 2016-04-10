@@ -765,39 +765,6 @@
   <data name="&gt;&gt;buttonPercentage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="result.AccessibleDescription" xml:space="preserve">
-    <value>result area</value>
-  </data>
-  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
-  </data>
-  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 56</value>
-  </data>
-  <data name="result.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 31</value>
-  </data>
-  <data name="result.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="result.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;result.Name" xml:space="preserve">
-    <value>result</value>
-  </data>
-  <data name="&gt;&gt;result.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;result.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;result.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="entryStatus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16pt, style=Bold</value>
   </data>
@@ -835,7 +802,7 @@
     <value>0</value>
   </data>
   <metadata name="toolTipNegativeButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>483, 17</value>
+    <value>489, 17</value>
   </metadata>
   <data name="buttonPlusOrMinus.AccessibleDescription" xml:space="preserve">
     <value>negative</value>
@@ -888,18 +855,6 @@
   <data name="MainMenuStrip.AccessibleName" xml:space="preserve">
     <value>MainMenu</value>
   </data>
-  <data name="fileToolStripMenuItem.AccessibleDescription" xml:space="preserve">
-    <value>mainMenu</value>
-  </data>
-  <data name="fileToolStripMenuItem.AccessibleName" xml:space="preserve">
-    <value>mainMenu</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;MENU</value>
-  </data>
   <data name="MainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -924,6 +879,18 @@
   <data name="&gt;&gt;MainMenuStrip.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
+  <data name="fileToolStripMenuItem.AccessibleDescription" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="fileToolStripMenuItem.AccessibleName" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;MENU</value>
+  </data>
   <data name="calculatorMenu.AccessibleDescription" xml:space="preserve">
     <value>mainMenuExit</value>
   </data>
@@ -946,10 +913,49 @@
     <value>315, 17</value>
   </metadata>
   <metadata name="toolTipNegativeButton.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>483, 17</value>
+    <value>489, 17</value>
   </metadata>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="result.AccessibleDescription" xml:space="preserve">
+    <value>result area</value>
+  </data>
+  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 56</value>
+  </data>
+  <data name="result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 31</value>
+  </data>
+  <data name="result.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="result.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;result.Name" xml:space="preserve">
+    <value>result</value>
+  </data>
+  <data name="&gt;&gt;result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;result.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;result.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.AccessibleDescription" xml:space="preserve">
     <value>Calculator in C#</value>
@@ -961,7 +967,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>260, 257</value>
+    <value>264, 261</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2136,6 +2142,12 @@
   </data>
   <data name="&gt;&gt;toolTipNegativeButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CALCULATOR</value>

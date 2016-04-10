@@ -54,7 +54,7 @@
 		<title>##ID_STRING5##</title>
 		<subject>Windows Calculator</subject>
 		<author>##ID_STRING2##</author>
-		<keywords>Installer,MSI,Database</keywords>
+		<keywords>Windows Calculator</keywords>
 		<comments>Contact:  Your local administrator</comments>
 		<template>Intel;1033</template>
 		<lastauthor>Administrator</lastauthor>
@@ -263,16 +263,16 @@
 		<row><td>NewBinary16</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallFirstUse.ico</td></row>
 		<row><td>NewBinary17</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallPartial.ico</td></row>
 		<row><td>NewBinary18</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\InstallStateMenu.ico</td></row>
-		<row><td>NewBinary19</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\1. Splash Bitmap 465-281px\Splash-Bitmap.jpg</td></row>
+		<row><td>NewBinary19</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\1. Splash Bitmap 465-281px\Splash-Bitmap.jpg</td></row>
 		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\New.ibd</td></row>
-		<row><td>NewBinary20</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\2. Install Welcome 499-312px\Install-Welcome-Banner.jpg</td></row>
-		<row><td>NewBinary21</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\3. License Agreement 499-58px\License-Agreement-Banner.jpg</td></row>
-		<row><td>NewBinary22</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\4. Readme 499-58px\Readme-Information-Banner.jpg</td></row>
-		<row><td>NewBinary23</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\5. Customer Information 499-58px\Customer-Information-Banner.jpg</td></row>
-		<row><td>NewBinary24</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\6. Destination Folder 499-58 px\Destination-Folder-Banner.jpg</td></row>
-		<row><td>NewBinary25</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\7. Ready to Install 499-58px\Ready-to-Install-Banner.jpg</td></row>
-		<row><td>NewBinary26</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\8. Setup Progress 499-58px\Setup-Progress-Banner.jpg</td></row>
-		<row><td>NewBinary27</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\9. Setup Complete Success 499-312px\Setup-Complete-Success-Banner.jpg</td></row>
+		<row><td>NewBinary20</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\2. Install Welcome 499-312px\Install-Welcome-Banner.jpg</td></row>
+		<row><td>NewBinary21</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\3. License Agreement 499-58px\License-Agreement-Banner.jpg</td></row>
+		<row><td>NewBinary22</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\4. Readme 499-58px\Readme-Information-Banner.jpg</td></row>
+		<row><td>NewBinary23</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\5. Customer Information 499-58px\Customer-Information-Banner.jpg</td></row>
+		<row><td>NewBinary24</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\6. Destination Folder 499-58 px\Destination-Folder-Banner.jpg</td></row>
+		<row><td>NewBinary25</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\7. Ready to Install 499-58px\Ready-to-Install-Banner.jpg</td></row>
+		<row><td>NewBinary26</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\8. Setup Progress 499-58px\Setup-Progress-Banner.jpg</td></row>
+		<row><td>NewBinary27</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Images\Install Images\9. Setup Complete Success 499-312px\Setup-Complete-Success-Banner.jpg</td></row>
 		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Up.ibd</td></row>
 		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\WarningIcon.ibd</td></row>
 		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;\Support\Themes\InstallShield Blue Theme\welcome.jpg</td></row>
@@ -630,7 +630,7 @@
 		<row><td>ReadmeInformation</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>3</td><td/><td/><td/><td/><td>0</td><td>0</td><td/><td/></row>
 		<row><td>ReadmeInformation</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>193</td><td>13</td><td>65539</td><td/><td>##IDS__IsReadmeDlg_ReadMeInfo##</td><td>DlgDesc</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>ReadmeInformation</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>1048579</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>ReadmeInformation</td><td>Readme</td><td>ScrollableText</td><td>10</td><td>55</td><td>353</td><td>166</td><td>3</td><td/><td/><td>Banner</td><td/><td>0</td><td/><td>C:\Users\Spark\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Supoerted Documents\Readme -project Description.rtf</td><td/></row>
+		<row><td>ReadmeInformation</td><td>Readme</td><td>ScrollableText</td><td>10</td><td>55</td><td>353</td><td>166</td><td>3</td><td/><td/><td>Banner</td><td/><td>0</td><td/><td>C:\Users\SPARK2\Dropbox\JustIT\Portfolio\VS Projects\Calculator\Calculator\Calculator\Supoerted Documents\Readme -project Description.rtf</td><td/></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>GroupBox1</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>ReadyToInstall</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary25</td></row>
 		<row><td>ReadyToInstall</td><td>BannerLine</td><td>Line</td><td>0</td><td>44</td><td>374</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
@@ -2394,6 +2394,8 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s72">Property</col>
 		<col def="L255">Value</col>
+		<row><td>Express</td><td>MSIPackageFileName</td><td>Windows Calculator</td></row>
+		<row><td>Express</td><td>SetupFileName</td><td>Windows Calculator</td></row>
 	</table>
 
 	<table name="ISRelease">
@@ -2427,7 +2429,7 @@
 		<col def="S255">DotNetBuildConfiguration</col>
 		<col def="S255">MsiCommandLine</col>
 		<col def="I4">ISSetupPrerequisiteLocation</col>
-		<row><td>CD_ROM</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>0</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>650</td><td>0</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
+		<row><td>CD_ROM</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>0</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>650</td><td>0</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://www.yordan.co.uk/c-project</td><td/><td/><td/><td/><td>536946719</td><td/><td/><td/><td>3</td></row>
 		<row><td>Custom</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>2</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>100</td><td>0</td><td>1024</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-10</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>8.75</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-18</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>15.83</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
@@ -2676,10 +2678,10 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>1369719281</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>170136202</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>1369733416</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>170146284</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
@@ -3705,8 +3707,8 @@
 		<row><td>IDS__IsProgressDlg_ProgressDone</td><td>1033</td><td>Progress done</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsProgressDlg_SecHidden</td><td>1033</td><td>(Hidden for now)Sec.</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsProgressDlg_Status</td><td>1033</td><td>Status:</td><td>0</td><td/><td>1369762119</td></row>
-		<row><td>IDS__IsProgressDlg_Uninstalling</td><td>1033</td><td>{&amp;MSSansBold8}Uninstalling [ProductName]</td><td>0</td><td/><td>1369762119</td></row>
-		<row><td>IDS__IsProgressDlg_UninstallingFeatures</td><td>1033</td><td>The program features you selected are being uninstalled.</td><td>0</td><td/><td>1369762119</td></row>
+		<row><td>IDS__IsProgressDlg_Uninstalling</td><td>1033</td><td>{&amp;MSSansBold8}</td><td>0</td><td/><td>170154444</td></row>
+		<row><td>IDS__IsProgressDlg_UninstallingFeatures</td><td>1033</td><td/><td>0</td><td/><td>170142156</td></row>
 		<row><td>IDS__IsProgressDlg_UninstallingFeatures2</td><td>1033</td><td/><td>0</td><td/><td>1369735368</td></row>
 		<row><td>IDS__IsProgressDlg_WaitUninstall</td><td>1033</td><td>Please wait while the InstallShield Wizard uninstalls [ProductName]. This may take several minutes.</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsProgressDlg_WaitUninstall2</td><td>1033</td><td>Please wait while the InstallShield Wizard installs [ProductName]. This may take several minutes.</td><td>0</td><td/><td>1369762119</td></row>
@@ -3765,11 +3767,11 @@
 		<row><td>IDS__IsVerifyReadyDlg_UserInfo</td><td>1033</td><td>User Information:</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsVerifyReadyDlg_UserName</td><td>1033</td><td>Name: [USERNAME]</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsVerifyReadyDlg_WizardReady</td><td>1033</td><td/><td>0</td><td/><td>1369716904</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_ChoseRemoveProgram</td><td>1033</td><td>You have chosen to remove the program from your system.</td><td>0</td><td/><td>1369762119</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_ChoseRemoveProgram</td><td>1033</td><td/><td>0</td><td/><td>170149611</td></row>
 		<row><td>IDS__IsVerifyRemoveAllDlg_ClickBack</td><td>1033</td><td>If you want to review or change any settings, click Back.</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsVerifyRemoveAllDlg_ClickRemove</td><td>1033</td><td>Click Remove to remove [ProductName] from your computer. After removal, this program will no longer be available for use.</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsVerifyRemoveAllDlg_Remove</td><td>1033</td><td>&amp;Remove</td><td>0</td><td/><td>1369762119</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_RemoveProgram</td><td>1033</td><td>{&amp;MSSansBold8}Remove the Program</td><td>0</td><td/><td>1369762119</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_RemoveProgram</td><td>1033</td><td>{&amp;MSSansBold8}</td><td>0</td><td/><td>170174187</td></row>
 		<row><td>IDS__IsWelcomeDlg_InstallProductName</td><td>1033</td><td>The InstallShield(R) Wizard will install [ProductName] on your computer. To continue, click Next.</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__IsWelcomeDlg_WarningCopyright</td><td>1033</td><td>Note: This program is protected by copyright law and international treaties.</td><td>0</td><td/><td>1369746759</td></row>
 		<row><td>IDS__IsWelcomeDlg_WelcomeProductName</td><td>1033</td><td>{&amp;TahomaBold10}Welcome to the InstallShield Wizard for [ProductName]</td><td>0</td><td/><td>1369762119</td></row>
@@ -3778,17 +3780,17 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1369762119</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>1369719281</td></row>
-		<row><td>ID_STRING10</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>1369719281</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>170136202</td></row>
+		<row><td>ID_STRING10</td><td>1033</td><td>http://www.WindowsCalculator.com</td><td>0</td><td/><td>170136202</td></row>
 		<row><td>ID_STRING11</td><td>1033</td><td>http://www.yordan.co.uk/get-in-touch</td><td>0</td><td/><td>1369729422</td></row>
 		<row><td>ID_STRING12</td><td>1033</td><td>http://www.yordan.co.uk/c-project</td><td>0</td><td/><td>1369762190</td></row>
-		<row><td>ID_STRING13</td><td>1033</td><td>TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT</td><td>0</td><td/><td>1369741742</td></row>
+		<row><td>ID_STRING13</td><td>1033</td><td>http://www.yordan.co.uk/c-project</td><td>0</td><td/><td>170191977</td></row>
 		<row><td>ID_STRING14</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369729521</td></row>
 		<row><td>ID_STRING15</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369745969</td></row>
 		<row><td>ID_STRING16</td><td>1033</td><td>UNINST~1|Uninstall Application</td><td>0</td><td/><td>1369753137</td></row>
 		<row><td>ID_STRING17</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369716497</td></row>
 		<row><td>ID_STRING18</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369743153</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>1369719281</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>170136202</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369754663</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>WINDOW~1|Windows Calculator</td><td>0</td><td/><td>1369709639</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>Windows Calculator</td><td>0</td><td/><td>1369716583</td></row>
@@ -4031,8 +4033,8 @@
 		<col def="S0">Value</col>
 		<row><td>ActiveLanguage</td><td>1033</td></row>
 		<row><td>Comments</td><td/></row>
-		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="a4f66fafb30885f14d732b73e196bba0">
-RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
+		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="6d78a46bf2c52ee27034bbcad20f7f95">
+QwBEAF8AUgBPAE0AAQBFAHgAcAByAGUAcwBzAA==
 			</td></row>
 		<row><td>DefaultProductConfiguration</td><td>Express</td></row>
 		<row><td>EnableSwidtag</td><td>0</td></row>
@@ -4049,7 +4051,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{115E97E5-10D3-4961-BD7B-8003E61332DD}</td></row>
 		<row><td>ISUSSignature</td><td>{C48CF738-8EA0-486A-B8C2-230896F844F9}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewUpdateService,viewSetupDesign,viewAppFiles,viewShortcuts,viewUI,viewTextMessages,viewRelease,viewRealSetupDesign,viewUpgradePaths,viewFeatureFiles,viewObjects,viewDependencies,viewIniFiles,viewRegistry,viewISToday,viewSetupTypes,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewUpdateService,viewSetupDesign,viewAppFiles,viewShortcuts,viewUI,viewTextMessages,viewRelease,viewRealSetupDesign,viewUpgradePaths,viewFeatureFiles,viewObjects,viewDependencies,viewIniFiles,viewRegistry,viewISToday,viewSetupTypes,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewServices,viewComponentServices,viewVRoots,viewEnvironmentVariables,viewFileExtensions</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4432,7 +4434,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{3DB703E3-41A1-46C8-9AF2-56FDC7C7065F}</td><td/></row>
 		<row><td>ProductName</td><td>Windows Calculator</td><td/></row>
-		<row><td>ProductVersion</td><td>1.8</td><td/></row>
+		<row><td>ProductVersion</td><td>3.1</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>

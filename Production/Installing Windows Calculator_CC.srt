@@ -1,0 +1,83 @@
+﻿1
+00:00:01,333 --> 00:00:04,666
+Installing Windows Calculator
+
+2
+00:00:04,666 --> 00:00:10,666
+This is a custom made installation setup for the app built inside Visual Studio with InstallShield.
+
+3
+00:00:10,666 --> 00:00:18,366
+Developed in C# programming language.
+
+4
+00:00:18,366 --> 00:00:25,166
+Designed using Windows Forms for the user interface.
+
+5
+00:00:25,166 --> 00:00:32,266
+In action performing standard calculations. Some of the functions 
+include:
+
+6
+00:00:32,266 --> 00:00:42,832
+- Delete last entry and perform different calculation;
+
+7
+00:00:42,833 --> 00:00:52,933
+- Users can change the mathematical operator at any time;
+
+8
+00:00:52,933 --> 00:00:59,366
+- Some of the processes happening behind the scenes are: User Input Validation, Error Handling for smooth application performance.
+
+9
+00:00:59,366 --> 00:01:05,599
+- It filters garbage data and produces error free outputs to the user - for example if an operator is pressed more than once.
+
+10
+00:01:05,600 --> 00:01:14,000
+- It works with negative values and percentages.
+
+11
+00:01:14,000 --> 00:01:20,466
+User Accessibility and Usability is implemented via keyboard navigation, Mnemonics, Hot Keys, Tool Tips and change of System Colour Scheme.
+
+12
+00:01:20,466 --> 00:01:27,699
+For example visually impaired people can use screen reader software to navigate around with the TAB button.
+
+13
+00:01:27,700 --> 00:01:32,533
+Pressing ALT on your keyboard activates Mnemonics that underlines frequentlly used buttons and menus.
+
+14
+00:01:32,533 --> 00:01:37,666
+In this case last entry is deleted by pressing 'D' button and with 'C' you can clear all of the entries.
+
+15
+00:01:37,666 --> 00:01:41,866
+Like so users can access the menu by pressing 'M'
+
+16
+00:01:41,866 --> 00:01:45,466
+and by selecting the hot key 'Ctrl + C' you can exit the app.
+
+17
+00:01:45,466 --> 00:01:50,432
+Yet other helpful feature is the High Contrast function that 
+performs validation over the Windows OS system colour scheme.
+
+18
+00:01:50,433 --> 00:01:55,266
+In this mode other users can still access all of the functions within the app.
+
+19
+00:01:55,266 --> 00:02:04,232
+Tool Tips are very good way to tell and inform users how to use 
+the application and make their choice.
+
+20
+00:02:04,233 --> 00:02:07,999
+Thank you for watching. 
+
