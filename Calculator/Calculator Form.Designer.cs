@@ -54,10 +54,10 @@
             this.MainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculatorMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolTipDeleteButton = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipClearAllButton = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipNegativeButton = new System.Windows.Forms.ToolTip(this.components);
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.result = new System.Windows.Forms.TextBox();
             this.MainMenuStrip.SuspendLayout();
             this.SuspendLayout();
