@@ -49,10 +49,6 @@ namespace Calculator
             {
                 result.Clear();
             }
-<<<<<<< HEAD
-=======
-            
->>>>>>> origin/master
             operatorPressed = false;
             Button button = (Button)sender;
             result.Text += button.Text;
@@ -122,26 +118,15 @@ namespace Calculator
             }
         }
         private void buttonNegative_Click(object sender, EventArgs e)
-        {
-            Button button = (Button)sender;
-            result.Clear();
-<<<<<<< HEAD
-             
-            if (button.Text != "-")
-            {//true for pressing the negative button first
-=======
-            if (button.Text != "-")
+        {            
+            if (result.Text != "-")
             {
->>>>>>> origin/master
-                result.Text = button.Text + result.Text;
+                result.Clear();
+                result.Text = "-";
             }
-            else if (button.Text != "-")
+            else if (result.Text != null)
             {
-                button.IsAccessible = true;
-            }
-            else
-            {
-                result.Text = result.Text + button.Text;
+                result.Clear();
             }
         }
         private void buttonClear_Click(object sender, EventArgs e)
@@ -152,11 +137,22 @@ namespace Calculator
         }
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            string resultText = result.Text;
-            int LastIndex = resultText.Length;
-            result.Text = result.Text.Remove(LastIndex - 1);
-            //result.Text = "";
-            //value = 0;
+            if (result.Text != "")
+            {
+                try
+                {
+                    result.Text = "00";
+                }
+                catch (Exception)
+                {
+                    result.Text = "00";
+                }
+                string resultText = result.Text;
+                int LastIndex = resultText.Length;
+                result.Text = result.Text.Remove(LastIndex - 1);
+            }
+            
+          
         }
         private void Calculator_KeyPress(object sender, KeyPressEventArgs e)
         {
