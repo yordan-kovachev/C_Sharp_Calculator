@@ -23,7 +23,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -49,16 +49,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D8236691349CF076B39948797BFBEC43598E3523</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>A72EA77C175FA8CEF23EA4044D4D4236FE90A088</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Calculator_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +96,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <EmbeddedResource Include="Calculator Form.en-GB.resx">
       <DependentUpon>Calculator Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,7 +108,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Calculator_TemporaryKey.pfx" />
+    <None Include="Calculator\Calculator.isl" />
+    <None Include="Calculator\Calculator.isproj" />
     <None Include="Images\Install Images\1. Splash Bitmap 465-281px\psA6AD.tmp" />
     <None Include="Images\Install Images\1. Splash Bitmap 465-281px\Splash Bitmap.psd" />
     <None Include="Images\Install Images\2. Install Welcome 499-312px\Install Welcome Banner.psd" />
@@ -122,6 +138,7 @@
     <None Include="Images\Install Images\8. Setup Progress 499-58px\Setup Progress Banner.psd" />
     <None Include="Images\Install Images\9. Setup Complete Success 499-312px\psD423.tmp" />
     <None Include="Images\Install Images\9. Setup Complete Success 499-312px\Setup Complete Success Banner.psd" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
